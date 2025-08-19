@@ -10,12 +10,6 @@ It uses OpenCV to detect drowsiness (closed eyes) or random alcohol influence, a
 - Engages "autopilot mode" (slows down, finds roadside spot, pulls over).
 - Runs on webcam for live testing.
 
-## How to Run
-```bash
-pip install -r requirements.txt
-python src/main.py
-
-
 ##🔹 Simulation Features:
 • Camera/Webcam → used to detect face & driver’s eyes.
 • If eyes are closed > 5 seconds → system assumes drowsy.
@@ -41,4 +35,10 @@ python src/main.py
 • Can start with a simple simulation (like the Python code I created).
 • The next level could be building a small hardware prototype: Arduino/Raspberry Pi + DHT/IR/accelerometer sensor + relay/servo motor module.
 • Advanced stage → integration with a real car (requires collaboration with automotive engineers).
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python src/main.py
+
 
