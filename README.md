@@ -10,7 +10,7 @@ It uses OpenCV to detect drowsiness (closed eyes) or random alcohol influence, a
 - Engages "autopilot mode" (slows down, finds roadside spot, pulls over).
 - Runs on webcam for live testing.
 
-##🔹 Simulation Features:
+## 🔹 Simulation Features:
 • Camera/Webcam → used to detect face & driver’s eyes.
 • If eyes are closed > 5 seconds → system assumes drowsy.
 • There’s a random event (10%) to simulate alcohol detection.
