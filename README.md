@@ -15,6 +15,9 @@ It uses OpenCV to detect drowsiness (closed eyes) or random alcohol influence, a
 - If eyes are closed > 5 seconds → system assumes drowsy.
 - There’s a random event (10%) to simulate alcohol detection.
 - When detected → autopilot activates, simulating a pull-over with step-by-step printed logs.
+- Drowsiness detection (PERCLOS, EAR, yawning) from the camera using MediaPipe Face Mesh.
+- Optional reading of an alcohol sensor (e.g., MQ-3) via Serial from a microcontroller (Arduino).
+- Autopilot state machine that “pulls over” in the simulation (using Pygame) when the driver is unsafe.
 - Can be stopped by pressing q.
 
 ## ⚠️ Warning
