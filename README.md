@@ -13,7 +13,7 @@ It uses OpenCV to detect drowsiness (closed eyes) or random alcohol influence, a
 ## How to Run
 ```bash
 pip install -r requirements.txt
-python src/main.py
+python src/main.py```
 
 ## 🔹 Simulation Features:
 • Camera/Webcam → used to detect face & driver’s eyes.
