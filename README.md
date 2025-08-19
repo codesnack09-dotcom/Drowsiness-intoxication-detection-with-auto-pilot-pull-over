@@ -15,7 +15,8 @@ It uses OpenCV to detect drowsiness (closed eyes) or random alcohol influence, a
 pip install -r requirements.txt
 python src/main.py
 
-#🔹 Simulation Features:
+
+##🔹 Simulation Features:
 • Camera/Webcam → used to detect face & driver’s eyes.
 • If eyes are closed > 5 seconds → system assumes drowsy.
 • There’s a random event (10%) to simulate alcohol detection.
