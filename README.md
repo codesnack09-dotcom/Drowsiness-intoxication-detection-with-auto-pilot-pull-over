@@ -10,3 +10,7 @@ It uses OpenCV to detect drowsiness (closed eyes) or random alcohol influence, a
 - Engages "autopilot mode" (slows down, finds roadside spot, pulls over).
 - Runs on webcam for live testing.
 
+## How to Run
+```bash
+pip install -r requirements.txt
+python main.py
