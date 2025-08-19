@@ -13,4 +13,4 @@ It uses OpenCV to detect drowsiness (closed eyes) or random alcohol influence, a
 ## How to Run
 ```bash
 pip install -r requirements.txt
-python main.py
+python src/main.py
