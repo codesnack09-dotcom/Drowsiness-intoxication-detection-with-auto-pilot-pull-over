@@ -32,7 +32,7 @@ It uses OpenCV to detect drowsiness (closed eyes) or random alcohol influence, a
 - Hand pressure sensor on steering wheel
 - And a car control system, which is much more complex and very risky if directly applied.
 - This project is for simulation and educational purposes only. It is NOT a real self-driving or safety system. Do not use it in actual vehicles.
-- this code is only for learning/simulation on desktop. Real-world vehicle automation systems require automotive-grade sensors, automotive-grade verification, safety validation, certification, and extensive testing. Do not use this to drive real vehicles.
+- This code is only for learning/simulation on desktop. Real-world vehicle automation systems require automotive-grade sensors, automotive-grade verification, safety validation, certification, and extensive testing. Do not use this to drive real vehicles.
 
 ## Technical Challenges
 - Accurate detection of drowsiness/intoxication requires a combination of camera sensors (eye-tracking), physiological sensors (heart rate, steering wheel grip), and AI.
